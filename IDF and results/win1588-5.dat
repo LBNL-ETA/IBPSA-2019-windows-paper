@@ -1,0 +1,41 @@
+Window5 Data File for EnergyPlus
+BERKELEY LAB WINDOW v7.7.1.0
+Date             : Wed Jan 30 16:19:04 2019
+Window name      : Exterior Window
+Description      : Fixed (picture)
+# Glazing Systems: 1
+GLAZING SYSTEM DATA: Height Width nPanes Uval-center SC-center SHGC-center Tvis-center
+ System1         :   1360  1060      2      1.040      0.251      0.218       0.516
+FRAME/MULLION DATA: Width OutsideProj InsideProj Cond EdgeCondRatio SolAbs VisAbs Emiss  Orient'n (mull)
+    L Sill       :   69.8     25.4       25.4    2.326    1.321      0.500  0.500  0.90 
+    R Sill       :   69.8     25.4       25.4    2.326    1.321      0.500  0.500  0.90 
+    L Head       :   69.8     25.4       25.4    2.326    1.321      0.500  0.500  0.90 
+    R Head       :   69.8     25.4       25.4    2.326    1.321      0.500  0.500  0.90 
+    Top L Jamb   :   69.8     25.4       25.4    2.326    1.321      0.500  0.500  0.90 
+    Bot L Jamb   :   69.8     25.4       25.4    2.326    1.321      0.500  0.500  0.90 
+    Top R Jamb   :   69.8     25.4       25.4    2.326    1.321      0.500  0.500  0.90 
+    Bot R Jamb   :   69.8     25.4       25.4    2.326    1.321      0.500  0.500  0.90 
+    Mullion      :   None
+    Average frame:   69.9     25.4       25.4    2.326    1.321      0.500  0.500  0.90 
+DIVIDER DATA     : Width OutsideProj InsideProj Cond EdgeCondRatio SolAbs VisAbs Emiss Type            #Hor #Vert
+ System1         :   0.0     0.0        0.0    0.000      0.000     0.000  0.000 0.000 None              0    0
+GLASS DATA       : Layer#  Thickness  Cond  Tsol  Rfsol  Rbsol  Tvis  Rfvis  Rbvis   Tir  EmissF   EmissB   SpectralDataFile
+ System1         :   1     11.00     1.000 0.219  0.050  0.366 0.531  0.050  0.027 0.000   0.840    0.042   GlassLayer1
+                     2     11.00     1.000 0.680  0.068  0.068 0.863  0.083  0.083 0.000   0.840    0.840   GlassLayer2
+GAP DATA         : Gap# Thick nGasses
+ System1         :   1  12.40    2 
+GAS DATA         : GasName       Fraction MWeight    ACond      BCond   CCond      AVisc      BVisc  CVisc ASpHeat  BSpHeat CSpHeat
+ System1 Gap1    : Air        0.0500   28.97 0.002873   7.76e-05       0  3.723e-06   4.94e-08      0 1002.74 0.012324       0 
+                 : Krypton    0.9500   83.80 0.0009443  2.826e-05       0  2.213e-06  7.777e-08      0 248.091        0       0 
+GLAZING SYSTEM OPTICAL DATA
+Angle     0    10    20    30    40    50    60    70    80    90 Hemis
+System1
+Tsol  0.184 0.185 0.183 0.179 0.174 0.164 0.143 0.103 0.047 0.000 0.153
+Abs1  0.740 0.746 0.751 0.751 0.745 0.735 0.720 0.669 0.487 0.000 0.710
+Abs2  0.017 0.017 0.018 0.018 0.018 0.018 0.017 0.015 0.011 0.000 0.017
+Rfsol 0.059 0.051 0.049 0.052 0.063 0.082 0.119 0.213 0.456 1.000 0.111
+Rbsol 0.187 0.183 0.180 0.179 0.182 0.195 0.231 0.326 0.536 1.000 0.128
+Tvis  0.460 0.462 0.456 0.447 0.435 0.411 0.358 0.259 0.118 0.000 0.382
+Rfvis 0.074 0.066 0.064 0.067 0.078 0.099 0.139 0.238 0.477 1.000 0.227
+Rbvis 0.104 0.097 0.096 0.101 0.114 0.144 0.207 0.350 0.617 1.000 0.184
+
